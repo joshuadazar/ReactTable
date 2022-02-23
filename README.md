@@ -26,11 +26,22 @@ You will also see any lint errors in the console.
 ### `Firebase Setup`
  - npm install firebase
  - firebase login 
+<<<<<<< HEAD
  - firebase init (follow the steps)  (In option replace index.html type `no`)
  
 ### `Public site`
 
 Builds the app for production to the `build` folder.\
+=======
+ - firebase init (follow the steps)
+ - firebase deploy (from public directory)
+### `Publis site`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+
+>>>>>>> 49092ef9a1a9d1f0efa85d9b0c6d592aa2399ed5
 Deploy local: `npm run build` ( in `public` directory)
 Deploy firebase hosting: `firebase deploy`
 ### `yarn eject`
