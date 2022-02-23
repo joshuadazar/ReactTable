@@ -1,6 +1,6 @@
 # Data Table (React and MaterializeCSS)
 
-<img width="200px" src="https://avatars.githubusercontent.com/u/6062203?s=40&v=4" alt="Profile picture">
+<img width="200px" src="https://avatars.githubusercontent.com/u/6062203?v=4" alt="Profile picture">
 <br/>
 <b>Project includes:</b>
 </br>
@@ -36,8 +36,4 @@ Deploy firebase hosting: `firebase deploy`
 ### `yarn eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
