@@ -1,12 +1,19 @@
-# Getting Started with Create React App
+# Data Table (React and MaterializeCSS)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="https://avatars.githubusercontent.com/u/6062203?s=40&v=4" alt="Profile picture">
+<br/>
+<b>This project includes:</b>
+</br>
+Data Table : <a href="https://app.codecov.io/gh/jbetancur/react-data-table-component">
+https://app.codecov.io/gh/jbetancur/react-data-table-component</a>
+State management: RxJS
+CodeBase: Typescript & SCSS
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you can run: SPA application
 
-### `yarn start`
+### `npm run start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
