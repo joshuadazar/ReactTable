@@ -1,6 +1,6 @@
 # Data Table (React and MaterializeCSS)
 
-<img width="200px" src="https://avatars.githubusercontent.com/u/6062203?v=4" alt="Profile picture">
+<img width="150px" src="https://avatars.githubusercontent.com/u/6062203?v=4" alt="Profile picture">
 <br/>
 <b>Project includes:</b>
 </br>
