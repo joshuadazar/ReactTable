@@ -6,6 +6,7 @@ import { messageService, NameArray, sendMessage } from './services/service';
 import 'materialize-css/dist/css/materialize.min.css';
 import { Names } from './models/INames';
 import { useEffect } from 'react';
+import {Form} from './components/Form';
 
 
 
@@ -49,11 +50,13 @@ function App() {
   return (
     <div className="App">
       <Header />
-
-      <Table />
-      <button onClick={hideTable}>ocultar</button>
-      <Main title={title} />
-      <input onChange={(e) => sendMessage(e.target.value)} type="text" />
+      <div className="container">
+        <Form/>
+        <Table />
+        <button onClick={hideTable}>ocultar</button>
+        <Main title={title} />
+        <input onChange={(e) => sendMessage(e.target.value)} type="text" />
+      </div>
       <Footer />
     </div>
   );

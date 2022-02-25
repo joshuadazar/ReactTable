@@ -33,6 +33,22 @@ You will also see any lint errors in the console.
 Builds the app for production to the `build` folder.\
 Deploy local: `npm run build` ( in `public` directory)
 Deploy firebase hosting: `firebase deploy`
+
+### `app firebase`
+- 1 `firebase apps:create` and define a application name
+- 2 `firebase apps:sdkconfig WEB 1:949051954393:web:8a1eaec847930858a59ac8`
+- 3 get this <i>key</i> </br>
+<strong>firebase.initializeApp({
+  "projectId": "reactdatatable",
+  "appId": "1:949051954393:web:8a1eaec847930858a59ac8",
+  "storageBucket": "reactdatatable.appspot.com",
+  "locationId": "us-central",
+  "apiKey": "AIzaSyDVGkZLSlrbGh4UKQ6r7NDdk8mPY3cbhlE",
+  "authDomain": "reactdatatable.firebaseapp.com",
+  "messagingSenderId": "949051954393"
+});</strong>
+- create in root path `firebase-app.js`with key
+
 ### `yarn eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
