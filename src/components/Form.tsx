@@ -16,7 +16,7 @@ export const Form = () => {
       }
       
       try { 
-        const coleccionRef = await app.firestore().collection("users").add(userData);
+        await app.firestore().collection("users").add(userData);
         console.log("archivo cargado:");
       } catch (err) { 
         console.log(err)

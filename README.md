@@ -1,4 +1,4 @@
-# Data Table (React and MaterializeCSS)
+# Data Table (React and Firebase)
 
 <img width="150px" src="https://avatars.githubusercontent.com/u/6062203?v=4" alt="Profile picture">
 <br/>
@@ -8,7 +8,7 @@ Data Table : <a href="https://app.codecov.io/gh/jbetancur/react-data-table-compo
 https://app.codecov.io/gh/jbetancur/react-data-table-component</a> </br>
 State management: `RxJS`
 CodeBase: `Typescript & SCSS`
-Stuyle library: `MaterializeCSS`
+Style library: `MaterializeCSS`
 
 ## Available Scripts
 
@@ -47,7 +47,7 @@ Deploy firebase hosting: `firebase deploy`
   "authDomain": "reactdatatable.firebaseapp.com",
   "messagingSenderId": "949051954393"
 });</strong>
-- create in root path `firebase-app.js`with key
+- create in src path `firebase-app.js`with key
 
 ### `yarn eject`
 
